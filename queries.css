@@ -1,0 +1,154 @@
+/* from Big tablet to small computers: from 1024px to 1200px*/
+
+@media only screen and (max-width: 1200px) {
+  .second-div h6 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .second-div h2 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 5px;
+  }
+  .second-div p {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .second-div h1 {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .second-div h3 {
+    font-size: 14px;
+    margin-left: 45%;
+    margin-top: -8%;
+  }
+  .second-div a {
+    position: relative;
+    top: -30px;
+    padding: 12px 40px;
+    font-size: 14px;
+    border-radius: 20px;
+  }
+
+  .cart {
+    margin-right: 5px;
+  }
+}
+
+/* small tablets to  Big tablets : from 768px to 1023px*/
+
+@media only screen and (max-width: 1023px) {
+  .second-div h6 {
+    font-size: 14px;
+  }
+  .second-div h2 {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 2px;
+  }
+  .second-div p {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .second-div h1 {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .second-div h3 {
+    font-size: 12px;
+    margin-left: 55%;
+    margin-top: -12%;
+  }
+  .second-div a {
+    position: relative;
+    top: -20px;
+    padding: 12px 30px;
+    font-size: 14px;
+  }
+  .second-div {
+    padding-left: 30px;
+  }
+}
+
+/* from small phones to small tablet: from 481px to 767px*/
+
+@media only screen and (max-width: 767px) {
+  .main-div {
+    top: 5%;
+    left: 18%;
+    width: 65vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-div {
+    width: 65vw;
+    height: 30vh;
+    border-radius: 20px 20px 0px 0px;
+    background-color: aqua;
+  }
+  .img-div img {
+    border-radius: 20px 20px 0px 0px;
+    width: 65vw;
+    height: 35vh;
+  }
+
+  .second-div {
+    width: 65vw;
+    height: 60vh;
+    border-radius: 0px 00px 20px 20px;
+    padding-left: 20px;
+  }
+  .second-div h6 {
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-top: 20px;
+  }
+  .second-div h2 {
+    font-size: 20px;
+    line-height: 20px;
+    /* margin-top: 20px; */
+  }
+  .second-div p {
+    font-size: 16px;
+    color: #b1b0b5;
+    font-weight: 400;
+    margin-top: 2px;
+  }
+  .second-div h1 {
+    font-size: 20px;
+    color: #3d8168;
+    font-weight: bold;
+    margin-top: 2px;
+  }
+  .second-div h3 {
+    font-size: 12px;
+    margin-top: -7%;
+  }
+  .second-div a {
+    /* position: relative; */
+    /* top: -10%; */
+    text-decoration: none;
+    /* margin-top: -20%; */
+    padding: 10px 70px;
+    font-size: 15px;
+    border-radius: 4px;
+  }
+  .second-div a:hover {
+    background-color: #184131;
+  }
+  .second-div a:active {
+    background-color: #184131;
+  }
+
+  .cart {
+    margin-right: 10px;
+  } /*# sourceMappingURL=index.css.map */
+}
+
+/* small phones: from 0px to 480px*/
+
+@media only screen and (max-width: 480px) {
+}
